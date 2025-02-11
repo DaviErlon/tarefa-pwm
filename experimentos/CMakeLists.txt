@@ -56,7 +56,6 @@ target_include_directories(experimentos PRIVATE
 # Add any user requested libraries
 target_link_libraries(experimentos 
         hardware_pwm
-        pico_multicore
         )
 
 pico_add_extra_outputs(experimentos)

@@ -1,6 +1,5 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
-#include "pico/multicore.h"
 
 #define LED_R 13
 #define LED_G 11
