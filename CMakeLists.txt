@@ -55,7 +55,7 @@ target_include_directories(tarefa_pwm PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(tarefa_pwm 
-        
+        hardware_pwm
         )
 
 pico_add_extra_outputs(tarefa_pwm)
